@@ -1,0 +1,177 @@
+/**************************/
+/* BELOW 1360px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 85em) {
+    .landing .text-box h1 {
+        font-size: 3rem;
+    }
+    .landing .text-box p {
+        font-size: 1.4rem;
+    }
+}
+
+/**************************/
+/* BELOW 1166px (Landscape Tablets)  */
+/**************************/
+
+@media (max-width: 72.5em) {
+    .landing .text-box {
+        max-width: 60%;
+    }
+
+    .landing .text-content {
+        max-width: 90%;
+    }
+
+    .portfolio .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/**************************/
+/* BELOW 880px (Tablets) */
+/**************************/
+
+@media (max-width: 55em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .landing .text-box h1 {
+        font-size: 2.4rem;
+    }
+
+    .design .img {
+        display: none;
+    }
+
+    .about img {
+        bottom: -12rem;
+        margin-top: -12rem;
+        right: 1.5rem;
+    }
+
+    .services .srv-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .portfolio .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonials-section .container {
+        flex-direction: column;
+    }
+
+    .subscripe p {
+        margin-left: 4rem;
+    }
+}
+
+/**************************/
+/* BELOW 744px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 46.5em) {
+    .container {
+        padding: 2rem;
+    }
+
+    .main-header .main-nav {
+        display: none;
+    }
+
+    .landing .text-box {
+        max-width: 100%;
+    }
+
+    .landing .text-content {
+        max-width: 100%;
+    }
+
+    .landing .change-background {
+        display: none;
+    }
+
+    .services .services-container {
+        grid-template-columns: 1fr;
+        gap: 10rem;
+    }
+
+    .services .srv-box {
+        gap: 4rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    .portfolio .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .stats .box {
+        flex-basis: 50%;
+        padding: 5rem;
+    }
+
+    .testimonials-section .testimonials .testimonial {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .testimonials-section .testimonials .text {
+        text-align: center;
+    }
+
+    .subscripe .container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .testimonials-section .testimonials img {
+        margin: 0;
+    }
+
+    .contact .content {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .contact .content .info {
+        order: -1;
+        text-align: center;
+    }
+}
+
+/**************************/
+/* BELOW 600px (Phones) */
+/**************************/
+
+@media (max-width: 37.5em) {
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+
+    .main-heading p {
+        width: 80%;
+    }
+
+    .stats .box {
+        flex-basis: 100%;
+    }
+
+    .pricing .plans {
+        grid-template-columns: 1fr;
+        row-gap: 9rem;
+    }
+    .about img {
+        bottom: -8rem;
+        margin-top: -10rem;
+    }
+}
